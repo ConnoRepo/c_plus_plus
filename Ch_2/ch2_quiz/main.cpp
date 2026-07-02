@@ -3,16 +3,10 @@
 
 int main()
 {
-    int first_number;
-    first_number = readNumber();
+    int first_number{ readNumber() };
 
-    int second_number;
-    second_number = readNumber();
+    int second_number{ readNumber() };
 
-    int answer;
-    answer = first_number + second_number;
-
-    writeAnswer(answer);
-
+    writeAnswer(first_number + second_number);
     return 0;
 }

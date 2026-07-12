@@ -22,7 +22,8 @@
             ],
             "osx": {
                 "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
-                "MIMode": "lldb"
+                "MIMode": "lldb",
+                "externalConsole": true
             }
         }
     ]
